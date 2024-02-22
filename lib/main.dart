@@ -39,7 +39,7 @@ class _HomepageState extends State<Homepage> {
                       Text(
                         'Home',
                         style:
-                            TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                        TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                       ),
                       SizedBox(
                           width: 4.0), // Add spacing between the title and arrow
@@ -58,7 +58,7 @@ class _HomepageState extends State<Homepage> {
                 SizedBox(
                   width: 5,
                 ),
-                Image.asset(
+                Image.network(
                   'assets/reddit.png',
                   height: 35,
                 )
@@ -177,7 +177,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.asset(
+                            child: Image.network(
                               'assets/reddit-user.png',
                               height: 20,
                             ),
@@ -331,7 +331,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.asset(
+                            child: Image.network(
                               'assets/basketball.jpg',
                               height: 20,
                             ),
@@ -483,7 +483,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.asset(
+                            child: Image.network(
                               'assets/heart.jpg',
                               height: 20,
                             ),
@@ -637,7 +637,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.asset(
+                            child: Image.network(
                               'assets/reddit-user.png',
                               height: 20,
                             ),
@@ -678,11 +678,11 @@ class _HomepageState extends State<Homepage> {
                       SizedBox(
                         height: 10,
                       ),
-                      Image.network("assets/hold",
-                          width: 450,
-                          height: 450,
-                          fit: BoxFit.cover,
-                        ),
+                      Image.network("assets/hold.jpg",
+                        width: 450,
+                        height: 450,
+                        fit: BoxFit.cover,
+                      ),
 
                     ],
                   ),
