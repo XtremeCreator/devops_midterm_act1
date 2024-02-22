@@ -37,7 +37,7 @@ class _HomepageState extends State<Homepage> {
                     Text(
                       'Home',
                       style:
-                          TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                      TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
                         width: 4.0), // Add spacing between the title and arrow
@@ -80,62 +80,62 @@ class _HomepageState extends State<Homepage> {
             ),
             ListTile(
                 title: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  'Your Communities',
-                  style: TextStyle(color: Colors.white),
-                ),
-                SizedBox(width: 20),
-                Icon(
-                  Icons.keyboard_arrow_down_sharp,
-                  color: Colors.white,
-                )
-              ],
-            )),
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Your Communities',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    SizedBox(width: 20),
+                    Icon(
+                      Icons.keyboard_arrow_down_sharp,
+                      color: Colors.white,
+                    )
+                  ],
+                )),
             SizedBox(
               height: 10,
             ),
             ListTile(
                 title: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Icon(
-                  Icons.add,
-                  color: Colors.white,
-                ),
-                SizedBox(width: 20),
-                Text(
-                  'Create a community',
-                  style: TextStyle(color: Colors.white),
-                ),
-                SizedBox(width: 75),
-                Icon(
-                  Icons.star_border,
-                  color: Colors.white,
-                ),
-              ],
-            )),
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(
+                      Icons.add,
+                      color: Colors.white,
+                    ),
+                    SizedBox(width: 20),
+                    Text(
+                      'Create a community',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    SizedBox(width: 75),
+                    Icon(
+                      Icons.star_border,
+                      color: Colors.white,
+                    ),
+                  ],
+                )),
             ListTile(
                 title: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Icon(
-                  Icons.speaker_notes_outlined,
-                  color: Colors.white,
-                ),
-                SizedBox(width: 20),
-                Text(
-                  'Custom Feeds',
-                  style: TextStyle(color: Colors.white),
-                ),
-                SizedBox(width: 110),
-                Icon(
-                  Icons.star_border,
-                  color: Colors.white,
-                ),
-              ],
-            )),
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(
+                      Icons.speaker_notes_outlined,
+                      color: Colors.white,
+                    ),
+                    SizedBox(width: 20),
+                    Text(
+                      'Custom Feeds',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    SizedBox(width: 110),
+                    Icon(
+                      Icons.star_border,
+                      color: Colors.white,
+                    ),
+                  ],
+                )),
             SizedBox(
               height: 10,
             ),
@@ -148,19 +148,19 @@ class _HomepageState extends State<Homepage> {
             ),
             ListTile(
                 title: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Icon(
-                  Icons.bar_chart,
-                  color: Colors.white,
-                ),
-                SizedBox(width: 20),
-                Text(
-                  'Charts',
-                  style: TextStyle(color: Colors.white),
-                )
-              ],
-            )),
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(
+                      Icons.bar_chart,
+                      color: Colors.white,
+                    ),
+                    SizedBox(width: 20),
+                    Text(
+                      'Charts',
+                      style: TextStyle(color: Colors.white),
+                    )
+                  ],
+                )),
           ],
         ),
       ),
@@ -242,7 +242,7 @@ class _HomepageState extends State<Homepage> {
                               decoration: BoxDecoration(
                                   border: Border.all(color: Colors.white),
                                   borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                  BorderRadius.all(Radius.circular(20))),
                               child: Row(
                                 children: [
                                   IconButton(
@@ -272,7 +272,7 @@ class _HomepageState extends State<Homepage> {
                               decoration: BoxDecoration(
                                   border: Border.all(color: Colors.white),
                                   borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                  BorderRadius.all(Radius.circular(20))),
                               child: Row(
                                 children: [
                                   IconButton(
@@ -300,7 +300,466 @@ class _HomepageState extends State<Homepage> {
                               decoration: BoxDecoration(
                                   border: Border.all(color: Colors.white),
                                   borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.share),
+                                    color: Colors.white,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  SizedBox(
+                    height: 9,
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.white,
+                  ),
+                  //second post
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        child: Row(children: [
+                          ClipOval(
+                            child: Image.asset(
+                              'assets/basketball.jpg',
+                              height: 20,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          Text(
+                            'r/bballsk',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white),
+                          )
+                        ]),
+                      ),
+                      Container(
+                        child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.more_vert,
+                              color: Colors.white,
+                            )),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          'No one can down me!',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 17),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Image.network("assets/jordan.jpg",
+                        width: 450,
+                        height: 450,
+                        fit: BoxFit.cover,
+                      ),
+
+                    ],
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 40,
+                              width: 110,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.arrow_upward_outlined),
+                                    color: Colors.white,
+                                  ),
+                                  Text(
+                                    '786 |',
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 9),
+                                  ),
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.arrow_downward_outlined),
+                                    color: Colors.white,
+                                  )
+                                ],
+                              ),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Container(
+                              height: 40,
+                              width: 110,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.chat),
+                                    color: Colors.white,
+                                  ),
+                                  Text(
+                                    '98 Comments',
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 9),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 40,
+                              width: 50,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.share),
+                                    color: Colors.white,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  SizedBox(
+                    height: 9,
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.white,
+                  ),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        child: Row(children: [
+                          ClipOval(
+                            child: Image.asset(
+                              'assets/heart.jpg',
+                              height: 20,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          Text(
+                            'r/valentines',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white),
+                          )
+                        ]),
+                      ),
+                      Container(
+                        child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.more_vert,
+                              color: Colors.white,
+                            )),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          'I love you!',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 17),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          'I hope this message finds you wrapped in warmth and joy. As I sit down to pen these words, my heart is overflowing with love for you. There are moments in life when the simplest expressions carry the weight of the deepest emotions, and this is one of those times.',
+                          style: TextStyle(color: Colors.white, fontSize: 15),
+                        ),
+                      )
+                    ],
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 40,
+                              width: 110,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.arrow_upward_outlined),
+                                    color: Colors.white,
+                                  ),
+                                  Text(
+                                    '43 |',
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 9),
+                                  ),
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.arrow_downward_outlined),
+                                    color: Colors.white,
+                                  )
+                                ],
+                              ),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Container(
+                              height: 40,
+                              width: 110,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.chat),
+                                    color: Colors.white,
+                                  ),
+                                  Text(
+                                    '75 Comments',
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 9),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 40,
+                              width: 50,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.share),
+                                    color: Colors.white,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  SizedBox(
+                    height: 9,
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.white,
+                  ),
+                  //third post
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        child: Row(children: [
+                          ClipOval(
+                            child: Image.asset(
+                              'assets/reddit-user.png',
+                              height: 20,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          Text(
+                            'r/funny',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white),
+                          )
+                        ]),
+                      ),
+                      Container(
+                        child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.more_vert,
+                              color: Colors.white,
+                            )),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          'He held it in very well',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 17),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Image.network("assets/hold",
+                          width: 450,
+                          height: 450,
+                          fit: BoxFit.cover,
+                        ),
+
+                    ],
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 40,
+                              width: 110,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.arrow_upward_outlined),
+                                    color: Colors.white,
+                                  ),
+                                  Text(
+                                    '32 |',
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 9),
+                                  ),
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.arrow_downward_outlined),
+                                    color: Colors.white,
+                                  )
+                                ],
+                              ),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Container(
+                              height: 40,
+                              width: 110,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.chat),
+                                    color: Colors.white,
+                                  ),
+                                  Text(
+                                    '27 Comments',
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 9),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 40,
+                              width: 50,
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
                               child: Row(
                                 children: [
                                   IconButton(
