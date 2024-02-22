@@ -177,10 +177,10 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.network(
-                                'https://www.freeiconspng.com/thumbs/reddit-icon/red-reddit-icon-7.png',
-                                height: 20,
-                                width: 20),
+                            child: Image.asset(
+                              'assets/reddit-user.png',
+                              height: 20,
+                            ),
                           ),
                           SizedBox(
                             width: 5,
