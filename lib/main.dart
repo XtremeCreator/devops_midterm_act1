@@ -32,29 +32,29 @@ class _HomepageState extends State<Homepage> {
               color: Colors.grey.shade900,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  children: [
-                    Text(
-                      'Home',
-                      style:
-                      TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
-                    ),
-                    SizedBox(
-                        width: 4.0), // Add spacing between the title and arrow
-                    Icon(
-                      Icons.keyboard_arrow_down_sharp,
-                      color: Colors.white,
-                    ),
-                  ],
+                child: InkWell(
+                  onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>Homepage()));},
+                  child: Row(
+                    children: [
+                      Text(
+                        'Home',
+                        style:
+                            TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                      ),
+                      SizedBox(
+                          width: 4.0), // Add spacing between the title and arrow
+                      Icon(
+                        Icons.keyboard_arrow_down_sharp,
+                        color: Colors.white,
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
             Row(
               children: [
-                Icon(
-                  Icons.search,
-                  color: Colors.white,
-                ),
+                IconButton(onPressed: (){}, icon: Icon(Icons.search)),
                 SizedBox(
                   width: 5,
                 ),
