@@ -45,7 +45,7 @@ class _HomepageState extends State<Homepage> {
               children: [
                 Icon(Icons.search,color: Colors.white,),
                 SizedBox(width: 5,),
-                Image.network('https://cdn-icons-png.flaticon.com/512/1383/1383267.png',height: 35,)
+                Image.asset('assets/reddit.png',height: 35)
               ],
             )
           ],
