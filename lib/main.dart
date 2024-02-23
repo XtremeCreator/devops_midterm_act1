@@ -236,57 +236,41 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 110,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_upward_outlined),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '80 |',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_downward_outlined),
-                                    color: Colors.white,
-                                  )
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_upward_outlined),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '80 |',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_downward_outlined),
+                                  color: Colors.white,
+                                )
+                              ],
                             ),
                             SizedBox(
                               width: 10,
                             ),
-                            Container(
-                              height: 40,
-                              width: 110,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.chat),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '15 Comments',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.chat),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '15 Comments',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -294,22 +278,14 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 50,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.share),
-                                    color: Colors.white,
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.share),
+                                  color: Colors.white,
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -373,10 +349,10 @@ class _HomepageState extends State<Homepage> {
                         height: 10,
                       ),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                            child: Image.asset('assets/jordan.jpg',height: 250,width: 342,),
+                            child: Image.asset('assets/jordan.jpg',height: 350,width: 350,fit: BoxFit.cover,),
                           ),
                         ],
                       )
@@ -393,57 +369,41 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 114,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_upward_outlined),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '786 |',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_downward_outlined),
-                                    color: Colors.white,
-                                  )
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_upward_outlined),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '786 |',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_downward_outlined),
+                                  color: Colors.white,
+                                )
+                              ],
                             ),
                             SizedBox(
                               width: 10,
                             ),
-                            Container(
-                              height: 40,
-                              width: 110,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.chat),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '98 Comments',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.chat),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '98 Comments',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -451,22 +411,14 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 50,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.share),
-                                    color: Colors.white,
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.share),
+                                  color: Colors.white,
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -546,57 +498,41 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 110,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_upward_outlined),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '43 |',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_downward_outlined),
-                                    color: Colors.white,
-                                  )
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_upward_outlined),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '43 |',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_downward_outlined),
+                                  color: Colors.white,
+                                )
+                              ],
                             ),
                             SizedBox(
                               width: 10,
                             ),
-                            Container(
-                              height: 40,
-                              width: 110,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.chat),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '75 Comments',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.chat),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '75 Comments',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -604,22 +540,14 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 50,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.share),
-                                    color: Colors.white,
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.share),
+                                  color: Colors.white,
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -683,10 +611,12 @@ class _HomepageState extends State<Homepage> {
                         height: 10,
                       ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Container(
-                              child: Image.asset('assets/hold.jpg',height: 341,width: 341,),
+                              child: Image.asset('assets/hold.jpg',width: 350,
+                                height: 350,
+                                fit: BoxFit.cover,),
                             ),
                           ],
                         )
@@ -702,57 +632,41 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 110,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_upward_outlined),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '32 |',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.arrow_downward_outlined),
-                                    color: Colors.white,
-                                  )
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_upward_outlined),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '32 |',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.arrow_downward_outlined),
+                                  color: Colors.white,
+                                )
+                              ],
                             ),
                             SizedBox(
                               width: 10,
                             ),
-                            Container(
-                              height: 40,
-                              width: 110,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.chat),
-                                    color: Colors.white,
-                                  ),
-                                  Text(
-                                    '27 Comments',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 9),
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.chat),
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  '27 Comments',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 9),
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -760,22 +674,14 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(
                           children: [
-                            Container(
-                              height: 40,
-                              width: 50,
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
-                              child: Row(
-                                children: [
-                                  IconButton(
-                                    onPressed: () {},
-                                    icon: Icon(Icons.share),
-                                    color: Colors.white,
-                                  ),
-                                ],
-                              ),
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.share),
+                                  color: Colors.white,
+                                ),
+                              ],
                             ),
                           ],
                         ),
