@@ -58,7 +58,7 @@ class _HomepageState extends State<Homepage> {
                 SizedBox(
                   width: 5,
                 ),
-                Image.network(
+                Image.asset(
                   'assets/reddit.png',
                   height: 35,
                 )
@@ -177,7 +177,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.network(
+                            child: Image.asset(
                               'assets/reddit-user.png',
                               height: 20,
                             ),
@@ -331,7 +331,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.network(
+                            child: Image.asset(
                               'assets/basketball.jpg',
                               height: 20,
                             ),
@@ -372,11 +372,15 @@ class _HomepageState extends State<Homepage> {
                       SizedBox(
                         height: 10,
                       ),
-                      Image.network("assets/jordan.jpg",
-                        width: 450,
-                        height: 450,
-                        fit: BoxFit.cover,
-                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            child: Image.asset('assets/jordan.jpg',height: 250,width: 342,),
+                          ),
+                        ],
+                      )
+
 
                     ],
                   ),
@@ -391,7 +395,7 @@ class _HomepageState extends State<Homepage> {
                           children: [
                             Container(
                               height: 40,
-                              width: 110,
+                              width: 114,
                               decoration: BoxDecoration(
                                   border: Border.all(color: Colors.white),
                                   borderRadius:
@@ -483,7 +487,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.network(
+                            child: Image.asset(
                               'assets/heart.jpg',
                               height: 20,
                             ),
@@ -637,7 +641,7 @@ class _HomepageState extends State<Homepage> {
                       Container(
                         child: Row(children: [
                           ClipOval(
-                            child: Image.network(
+                            child: Image.asset(
                               'assets/reddit-user.png',
                               height: 20,
                             ),
@@ -678,11 +682,14 @@ class _HomepageState extends State<Homepage> {
                       SizedBox(
                         height: 10,
                       ),
-                      Image.network("assets/hold.jpg",
-                        width: 450,
-                        height: 450,
-                        fit: BoxFit.cover,
-                      ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Container(
+                              child: Image.asset('assets/hold.jpg',height: 341,width: 341,),
+                            ),
+                          ],
+                        )
 
                     ],
                   ),
@@ -849,9 +856,11 @@ class _HomepageState extends State<Homepage> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 IconButton(
-                  icon: Icon(
-                    Icons.message_outlined,
-                    color: Colors.white,
+                  icon: Badge(
+                    child: Icon(
+                      Icons.message_outlined,
+                      color: Colors.white,
+                    ),
                   ),
                   onPressed: () {},
                 ),
@@ -865,9 +874,11 @@ class _HomepageState extends State<Homepage> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 IconButton(
-                  icon: Icon(
-                    Icons.notifications_none_outlined,
-                    color: Colors.white,
+                  icon: Badge(
+                    child: Icon(
+                      Icons.notifications_none_outlined,
+                      color: Colors.white,
+                    ),
                   ),
                   onPressed: () {},
                 ),
